@@ -1,13 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+import ContactList from './components/contactList.jsx'
+
 
 function App() {
-
   return (
-      <div>
-       
-      </div>
-  )
+      <>
+       <ContactList />
+      </>
+  );
 }
 
 export default App
